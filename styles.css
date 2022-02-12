@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media(max-width:998px)
+{
+    html
+    {
+        font-size: 75%;
+    }
+}
+@media(max-width:768px)
+{
+    html
+    {
+        font-size: 35%;
+    }
+}
+.container
+{
+    border: black 5px solid;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 8rem;
+    cursor: pointer;
+    margin: 10rem auto;
+    width: fit-content;
+    padding: 2rem;
+}
